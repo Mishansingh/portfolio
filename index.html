@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portolio</title>
+    <link rel="stylesheet" href="styles.css" >
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header" class="fix">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#link">Link</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+        </div>
+        <div class="header-text">
+            <p>Hello i'm</p>
+            <h1>Mishan Singh</h1>
+        </div>
+    </div>
+    <div id="about">
+        
+            <div class="row">
+                <div class="about-col-1">
+                  <img class="pic" src="images/WhatsApp Image 2023-07-15 at 13.01.05.jpeg" height="500px" width="400px">
+                </div>
+                <div class="about-col-2">
+                  <h1 class="subtitle">About Me</h1>
+                  <p>"Welcome to my portfolio website! I'm Mishan Singh, a passionate and driven third-year student on a mission to make a positive impact in the world through [your field of study].</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')" >Education</p>
+                    <p class="tab-links " onclick="opentab('skills')">Skills</p>
+                </div>
+                <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>National Institute of Technology Agartala</span><br>Bachelor of Technology in Electronics and Communication</li>
+                        <li><span>Gaya College,Gaya</span><br>Higher Secondary School</li>
+                        <li><span>Dini International School </span><br>Seconadary School </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="skills">
+                    <ul>
+                        <li><span>Languages</span><br>C++, C, JavaScript</li>
+                        <li><span>Computer Essentials</span><br>DSA, Competitive Programming, DBMS ,OS, OOPS</li>
+                        <li><span>Technologies </span><br>HTML, CSS, JS, DOM, JQuery, Node.js, Express.js,API</li>
+                        <li><span>Developer Tools</span><br>Developer Tools</li>
+                        <li><span>Softwares</span><br> MATLAB, Ansys HFSS, Lab View</li>
+                        <li><span>Other Skills</span><br> Graphic Designing [Canva], Crafting</li>
+                    </ul>
+                </div>
+                </div>
+
+            </div>
+        
+    </div>
+    <div id="services">
+        
+            <h1 class="subtitle">My Skills</h1>
+            <div class="services-list">
+                
+                    <div>
+                        <i class="fa-sharp fa-solid fa-code"></i>
+                       <h2>Languages</h2>
+                       <p>C<br/>C++<br/>JavaSript</p>
+                    </div>
+                    <div>
+                        <i class="fa-light fa-computer"></i>
+                        <h2>Computer Essentials</h2>
+                        <p>DSA<br/>CP</p>
+                     </div>
+                     <div>
+                        <i class="fa-brands fa-html5"></i>
+                        <h2>Technologies</h2>
+                        <p>Html<br/>Css<br>JavaSript<br>JQuery</p>
+                     </div>
+                     <div>
+                        <i class="fa-regular fa-code-branch"></i>
+                        <h2>Developer Tools</h2>
+                        <p>Git<br/>VS Code</p>
+                     </div>
+                     <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>Other Skills</h2>
+                        <p>MATLAB<br/>Graphic Designing</p>
+                     </div>
+            
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/portfolio1.jpeg" height="350px" width="250px">
+                <div class="layer">
+                    <h2>My Portfolio</h2>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/todolist.jpeg" height="350px" width="250px">
+                <div class="layer">
+                    <h2>To-Do List</h2>
+                    <a href="https://mishansingh.github.io/To-Do_List/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Drum_Kit.jpeg" height="350px" width="250px">
+                <div class="layer">
+                    <h2>Drum Kit</h2>
+                    <a href="https://mishansingh.github.io/Drum_Kit/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/diceRoll.jpeg" height="350px" width="250px">
+                <div class="layer">
+                    <h2>Roll Dice</h2>
+                    <a href="https://mishansingh.github.io/Dice-Roll_Fun/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/liveclock.jpeg" height="350px" width="250px">
+                <div class="layer">
+                    <h2>Live Clock</h2>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- link section---------------------------------------------------- -->
+    <!-- <section class="link" id="link">
+        <div class="max-width">
+            <h2 class="title">Links <p class="title_btm">My coding profiles</p></h2>
+             
+            <div class="link-content">   
+                <div class="symbols">   
+                <img class="logo" src="images\link1-leetcode.jpeg">
+                <a href="https://leetcode.com/sadhanasharma14/">Leetcode</a>
+                
+               </div>
+                
+               <div class="symbols">  
+                <img class="logo codechef" src="images\link2-codechef.jpeg">
+                
+                <a href="https://www.codechef.com/users/sadhanasharma1" class="cc">CodeChef</a>
+               </div>
+    
+               <div class="symbols">   
+                <img class="logo" src="images\link3-gfg.jpeg">
+                <a href="https://auth.geeksforgeeks.org/user/sadhanaksharma6/practice">Geeks for Geeks</a>
+                
+               </div>
+    
+               <div class="symbols">    
+                <img class="logo" src="images\link4-hr.jpeg">
+                <a href="https://www.hackerrank.com/sadhanaksharma6?hr_r=1">HackerRank</a>
+               </div>
+    
+               <div class="symbols">   
+                <img class="logo" src="images\link5-cf.jpeg">
+                <a href="https://codeforces.com/profile/SadhanaSharma1">CodeForces</a>
+               </div>
+             </div> 
+        </div>
+    </section> -->
+
+
+<!-- contact me section------------------------------------------------------ -->
+    <div id="contact">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>mishansingh111@gmail.com</p>
+                <p><i class="fa-brands fa-linkedin"></i><a  href="https://www.linkedin.com/in/mishan-singh-0628b2228/">linkedin</a></p>
+                <p><i class="fa-brands fa-github"></i><a href="https://github.com/Mishansingh">github</a></p>
+                <p><i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/missionsingh_/">Instagram</a></p>
+
+                <div class="social-icon">
+                    <a href="https://github.com/Mishansingh"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mishan-singh-0628b2228/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/missionsingh_/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="mailto:mishansingh111@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                    
+                </div class="butt">
+                <a href="images/resume_dp.pdf" download class="btn btn2"><button type="button">Download CV</button></a>
+
+            </div>
+            <div class="contact-right">
+                <!-- <form onsubmit="sendemail(); reset(); return false;">
+                    <input type="text" name="Name" placeholder=" Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Your Email" required>
+                    <textarea name="Message" id="" cols="30" rows="10" placeholder="Write Your Message"></textarea>
+                    <button class="btn3" type="submit">Submit</button>
+                </form> -->
+                <form action="https://formsubmit.co/jaisgargi11@gmail.com" method="POST" target="newsite">
+                    <!-- "https://formsubmit.co/abhradipsaha360@gmail.com" -->
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" id="" placeholder="E-mail" required>
+                    <input type="text" name="Sub" placeholder="Write your subject" required>
+                    <textarea name="Message" class="message" id="" cols="30" rows="10" placeholder="Your Message"
+                        required></textarea>
+                    <input type="submit" name="" value="Submit" class="btn1" placeholder="Write tour message">
+    
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <p> <i class="fa-solid fa-house"></i> Mishan's Portfolio</p>
+        </div>
+    </div>
+<script>
+    var sidemenu =document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<!-- <script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbx3PrwdlqjGIXeAeGrw3pYYLaVsjV-c_YApUTlVoPSzRq79HKDpNkQyvpsohm7oWhPO/exec>'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+</script> -->
+   <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+  <!-- <script>
+//     function sendemail(){
+//         Email.send({
+//         Host : "smtp.elasticemail.com",
+//          Username : "mishansingh111@gmail.com",
+//         Password : "Mishan@1620",
+//          To : 'mishansingh111@gmail.com',
+//         From :document.getElementById("email").value ,
+//         Subject : "new contact form",
+//         Body : "And this is the body"
+//      }).then(
+//      message => alert(message)
+//    );
+//     }
+ //   </script> --> 
+   <script >
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+     for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+     }
+     for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+     }
+     event.currentTarget.classList.add("active-link");
+     document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+</body>
+</html>
